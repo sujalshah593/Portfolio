@@ -54,7 +54,7 @@ Some images used in the project are private and excluded from the GitHub reposit
 ## 🙋‍♂️ Author
 
 - **Your Name**  
-- 📧 your.email@example.com  
+- 📧 sujalshah593@gmail.com 
 - 🌐 [Portfolio](https://guileless-duckanoo-7c3d52.netlify.app/)  
 - 🐙 [GitHub](https://github.com/sujalshah593)  
 - 💼 [LinkedIn]([https://linkedin.com/in/yourusername](https://www.linkedin.com/in/sujal-shah-399334306/))  
