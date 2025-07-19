@@ -24,7 +24,7 @@ dist-ssr
 *.sw?
 
 src/assets/harsh.jpg
-src/assets/indrajit.png
+src/assets/indrajit.jpg
 src/assets/jay.jpg
 src/assets/jeet.jpg
 src/assets/mansi.jpg
@@ -32,7 +32,7 @@ src/assets/meet.jpg
 src/assets/mohit.jpg
 src/assets/Nidhi.png
 src/assets/nishant.jpg
-src/assets/pranjal.png
+src/assets/pranjal.jpg
 src/assets/Riya.jpg
 src/assets/samarth.jpg
 src/assets/shashank.jpg
