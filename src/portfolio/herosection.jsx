@@ -89,24 +89,10 @@ export default function HeroSection() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 20 }}
           transition={{ duration: 0.6, delay: 0.2 }}
-          className="text-5xl sm:text-6xl md:text-7xl font-bold tracking-tight mb-6"
+          className="text-7xl sm:text-6xl md:text-8xl font-bold tracking-tight mb-6"
         >
-          <span className="block header ">
-          Hello There,
-            <motion.span
-              animate={{ rotate: [0, 15, -15, 15, 0] }}
-              transition={{
-                repeat: Infinity,
-                repeatDelay: 1.5,
-                duration: 1,
-              }}
-               className="hidden md:inline-block"
-            >
-              👋
-            </motion.span>
-          </span>
-          <span className="bg-gradient-to-r header from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
-            I'm Sujal Shah
+          <span className="bg-gradient-to-r header  from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
+            Sujal Shah
           </span>
         </motion.h1>
 

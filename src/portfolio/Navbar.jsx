@@ -122,7 +122,7 @@ export default function Navbar() {
                 <h1 className="text-xl font-bold bg-gradient-to-r from-white via-cyan-200 to-blue-200 bg-clip-text text-transparent group-hover:from-cyan-400 group-hover:via-blue-400 group-hover:to-purple-400 transition-all duration-500">
                   Sujal Shah
                 </h1>
-                <p className="text-xs text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
+                <p className="text-sm text-gray-400 group-hover:text-gray-300 transition-colors duration-300">
                   Frontend Developer
                 </p>
               </div>
@@ -140,7 +140,7 @@ export default function Navbar() {
                     e.preventDefault();
                     scrollToSection(item.id);
                   }}
-                  className={`relative px-4 py-2 text-sm font-medium rounded-lg group ${
+                  className={`relative px-4 py-2 text-lg font-medium rounded-lg group ${
                     activeSection === item.id
                       ? "text-cyan-400"
                       : "text-gray-300 hover:text-white"
@@ -185,7 +185,7 @@ export default function Navbar() {
             >
               <span className="relative z-10 flex items-center space-x-2">
                 <IoDownloadOutline className="w-4 h-4" />
-                <span>Resume</span>
+                <span className="text-xl font-light">Resume</span>
               </span>
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-700 via-blue-700 to-purple-700 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               <div className="absolute inset-0 bg-white/20 scale-x-0 group-hover:scale-x-100 transition-transform duration-500 origin-left"></div>

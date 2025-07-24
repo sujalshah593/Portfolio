@@ -68,7 +68,7 @@ export default function ProjectsSection() {
     <section
       id="projects"
       ref={ref}
-      className="relative py-16 px-4 sm:px-6 overflow-hidden"
+      className="relative py-24 px-4 sm:px-6 overflow-hidden"
     >
       <div className="max-w-7xl mx-auto relative z-10">
         <motion.div
@@ -77,7 +77,7 @@ export default function ProjectsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 relative"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 relative">
+          <h2 className="text-5xl sm:text-4xl md:text-8xl font-bold mb-6 relative">
             <span className="bg-gradient-to-r header from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
               Featured Projects
             </span>

@@ -84,7 +84,7 @@ const handleSubmit = async (e) => {
           className="text-center mb-16 relative"
         >
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 relative">
+          <h2 className="text-5xl sm:text-4xl md:text-8xl font-bold mb-6 relative">
             <span className="bg-gradient-to-r header from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
               Get In Touch
             </span>
@@ -102,8 +102,8 @@ const handleSubmit = async (e) => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="space-y-8"
           >
-            <h3 className="text-2xl font-bold text-white header">Contact Information</h3>
-            <p className="text-gray-300 extra">
+            <span className=" text-white header">Contact Information</span>
+            <p className="text-gray-300 mt-5 extra">
               I'm currently available for freelance work and full-time positions. If you have a project that needs some
               creative work, don't hesitate to contact me.
             </p>
@@ -149,7 +149,7 @@ const handleSubmit = async (e) => {
                 </div>
                 <div>
                   <h4 className="text-white font-medium header mb-1">Location</h4>
-                  <p className="text-gray-300 extra">Institue of Advanced Research and Innovation, Gandhinagar</p>
+                  <p className="text-gray-300 extra">Vadodara - 390001</p>
                 </div>
               </div>
             </div>

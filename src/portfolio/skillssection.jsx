@@ -87,7 +87,7 @@ export default function MobileSkillsSection() {
     <section
       id="skills"
       ref={ref}
-      className="w-full min-h-screen bg-black py-1 px-4 relative overflow-hidden"
+      className="w-full min-h-screen  bg-black py-28 px-4 relative overflow-hidden"
     >
       {/* Content */}
       <div className="relative z-10 max-w-4xl mx-auto">
@@ -98,7 +98,7 @@ export default function MobileSkillsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-8 sm:mb-16 relative z-10"
         >
-          <h2 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 relative px-4">
+          <h2 className="text-5xl sm:text-3xl md:text-4xl lg:text-8xl font-bold mb-4 sm:mb-6 relative px-4">
             <span className="bg-gradient-to-r from-cyan-300 header via-blue-400 to-purple-600 bg-clip-text text-transparent">
               Skills & Technologies
             </span>
@@ -131,7 +131,7 @@ export default function MobileSkillsSection() {
                 >
                   <span className="text-white text-xl">{category.icon}</span>
                 </div>
-                <h3 className="text-lg font-semibold text-white">
+                <h3 className="text-xl  text-white header">
                   {category.title}
                 </h3>
               </div>
@@ -139,7 +139,7 @@ export default function MobileSkillsSection() {
               {/* Skills */}
               <div className="space-y-4">
                 {category.skills.map((skill, skillIndex) => (
-                  <div key={skill.name} className="space-y-1">
+                  <div key={skill.name} className="space-y-1 extra">
                     <div className="flex items-center justify-between">
                       <div className="flex items-center gap-2 text-white">
                         <span>{skill.icon}</span>
@@ -182,7 +182,7 @@ export default function MobileSkillsSection() {
           transition={{ duration: 1.9, delay: 0.8 }}
           className="mb-12"
         >
-          <div className="text-center mb-6">
+          <div className="text-center text-2xl mb-6">
             <h3 className="text-2xl font-bold header text-white mb-4 relative">
               Currently Learning & Exploring
               <SmallDotLine
@@ -347,6 +347,7 @@ export default function MobileSkillsSection() {
                 from={0}
                 to={1}
                 separator=","
+                className="text-3xl"
                 direction="up"
                 duration={2.3}
               />
@@ -362,6 +363,7 @@ export default function MobileSkillsSection() {
                 from={0}
                 to={15}
                 separator=","
+                className="text-3xl"
                 direction="up"
                 duration={2.3}
               />
@@ -377,6 +379,7 @@ export default function MobileSkillsSection() {
                 from={0}
                 to={10}
                 separator=","
+                className="text-3xl"
                 direction="up"
                 duration={2.3}
               />
@@ -387,7 +390,7 @@ export default function MobileSkillsSection() {
 
           <div className="text-center bg-white/5 backdrop-blur-sm rounded-xl p-4 border border-white/10">
             <div className="text-2xl font-bold text-orange-400 mb-1 header">
-              8/7
+              <p className="text-3xl">8/7</p>
             </div>
             <div className="text-gray-400 text-sm header">Learning</div>
           </div>

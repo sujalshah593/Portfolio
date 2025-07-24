@@ -42,7 +42,7 @@ export default function CertificationsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16 relative"
         >
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-6 relative">
+          <h2 className="text-5xl sm:text-4xl md:text-8xl font-bold mb-6 relative">
             <span className="bg-gradient-to-r header from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
               Certifications
             </span>

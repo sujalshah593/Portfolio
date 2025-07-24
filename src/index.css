@@ -7,9 +7,14 @@
   }
 }
 
-.header{
-  font-family: 'Merriweather', serif;
+.header {
+
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: larger;
 }
+
 
 .extra{
     font-family: 'Winky Rough', serif;

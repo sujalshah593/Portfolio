@@ -6,7 +6,6 @@ import Project from "./portfolio/Project";
 import ScrollToTop from "./portfolio/scroll";
 import Footer from "./portfolio/footer";
 
-
 export default function App() {
   return (
     <Router>

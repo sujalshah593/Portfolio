@@ -256,7 +256,7 @@ export default function ReviewsSection() {
     <section
       id="reviews"
       ref={ref}
-      className="relative py-24 px-4 sm:px-6 overflow-hidden"
+      className="relative py-18 px-4 sm:px-6 overflow-hidden"
     >
       <div className="absolute inset-0 z-0">
         <div className="absolute top-20 left-[20%] w-72 h-72 bg-gradient-to-r from-purple-700/10 to-pink-700/10 rounded-full blur-3xl"></div>
@@ -272,20 +272,20 @@ export default function ReviewsSection() {
           transition={{ duration: 2.5 }}
           className="text-center mb-16"
         >
-          <div className="inline-flex items-center gap-2 px-7 py-4 rounded-full  text-white bg-blue-600 text-sm font-medium mb-6">
-            <span className="relative flex h-2 w-2">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400  opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-            </span>
-            <span className="header font-bold ">Client Reviews</span>
-          </div>
 
-          <h2 className="text-3xl header sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
-            <span className="block text-white  font-bold">
+          <h2 className="text-5xl sm:text-4xl md:text-8xl font-bold mb-6 relative">
+            <span className="bg-gradient-to-r header from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
+              Client Reviews
+            </span>
+          </h2>
+         
+
+          <h2 className="text-2xl header sm:text-4xl md:text-5xl font-bold mb-6 leading-tight">
+            <span className="block text-white text-3xl  ">
               Worked alongside peers  
             </span>
 
-            <span className="block bg-gradient-to-r from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r text-2xl from-cyan-300 via-blue-300 to-purple-400 bg-clip-text text-transparent">
               who reviewed my work.
             </span>
           </h2>
@@ -322,15 +322,16 @@ export default function ReviewsSection() {
           className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center"
         >
           <div className="space-y-2">
-            <div className="text-3xl font-bold bg-gradient-to-r header from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+            <div className="text-4xl font-bold bg-gradient-to-r header from-cyan-400 to-blue-400 bg-clip-text text-transparent">
               <CountUp
                 from={0}
                 to={50}
                 separator=","
+                className="text-4xl"
                 direction="up"
                 duration={2.3}
               />
-              +
+              <span className="text-3xl">+</span>
             </div>
             <div className="text-gray-400 header text-sm">Happy Clients</div>
           </div>
@@ -340,10 +341,11 @@ export default function ReviewsSection() {
                 from={0}
                 to={100}
                 separator=","
+                   className="text-4xl"
                 direction="up"
                 duration={2.3}
               />
-              %
+              <span className="text-3xl">%</span>
             </div>
             <div className="text-gray-400 text-sm header">Satisfaction Rate</div>
           </div>
@@ -353,16 +355,17 @@ export default function ReviewsSection() {
                 from={0}
                 to={4}
                 separator=","
+                   className="text-4xl"
                 direction="up"
                 duration={2.3}
               />
-              .8/5
+              <span className="text-3xl">.8/5</span>
             </div>
             <div className="text-gray-400 text-sm header ">Average Rating</div>
           </div>
           <div className="space-y-2">
             <div className="text-3xl font-bold bg-gradient-to-r header from-orange-400 to-red-400 bg-clip-text text-transparent">
-              24/7
+              <span className="text-3xl">24/7</span>
             </div>
             <div className="text-gray-400 text-sm header">Support</div>
           </div>

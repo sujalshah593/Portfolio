@@ -14,13 +14,13 @@ export default function Footer() {
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 via-blue-500 to-purple-600 rounded-xl rotate-45"></div>
                 <div className="absolute inset-1 bg-black rounded-lg rotate-45"></div>
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <span className="text-white font-bold text-sm">S</span>
+                  <span className="text-white font-bold text-sm header">S</span>
                 </div>
               </div>
               <div>
-                <h3 className="text-lg font-bold bg-gradient-to-r from-white via-cyan-200 to-blue-200 bg-clip-text text-transparent">
+                <p className="text-xl header  font-bold bg-gradient-to-r from-white via-cyan-200 to-blue-200 bg-clip-text text-transparent">
                   Sujal Shah
-                </h3>
+                </p>
               </div>
             </div>
           </div>
