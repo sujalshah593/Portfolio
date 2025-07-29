@@ -28,7 +28,7 @@ const projects = [
       "A real-time chat application powered by AI, allowing users to interact with an AI assistant for various queries and tasks.",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "Assistant UI"],
     image: codezyai,
-    github: "hhttps://github.com/sujalshah593/Nexlog",
+    github: "https://github.com/sujalshah593/Nexlog",
     live: "https://codezy-ai-6wui.vercel.app/",
     featured: true,
   },
