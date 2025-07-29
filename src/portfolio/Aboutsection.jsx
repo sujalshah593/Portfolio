@@ -57,7 +57,7 @@ export default function AboutSection() {
             <div className="space-y-4">
               <h2 className="text-4xl header sm:text-5xl lg:text-6xl font-bold tracking-tight">
                 <span className="bg-gradient-to-r from-cyan-300 text-6xl via-blue-300 to-purple-400 bg-clip-text text-transparent">
-                  About me
+                  About me http://localhost:5173/
                 </span>
               </h2>
               <div className="h-1 w-24 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full"></div>

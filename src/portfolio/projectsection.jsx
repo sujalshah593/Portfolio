@@ -28,7 +28,7 @@ const projects = [
       "A real-time chat application powered by AI, allowing users to interact with an AI assistant for various queries and tasks.",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "Assistant UI"],
     image: codezyai,
-    github: "https://github.com/sujalshah593/Codezy-AI",
+    github: "hhttps://github.com/sujalshah593/Nexlog",
     live: "https://codezy-ai-6wui.vercel.app/",
     featured: true,
   },
@@ -38,19 +38,19 @@ const projects = [
       "A modern portfolio website showcasing projects and skills with smooth animations and responsive design.",
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
     image: portfolio1,
-    github: "https://github.com/yourusername/portfolio",
+    github: "https://github.com/sujalshah593/Portfolio",
     live: "https://portfolio-demo.com",
     featured: false,
   },
-    {
-      title: "Expense Tracker",
-      description: "Manage your income and expense in expense tracker with graphs! ",
-      tags: ["React.js", "Tailwind CSS", "JavaScript", "Recharts"],
-      image: expenzo,
-      github: "https://github.com/sujalshah593/ExpenseTracker",
-      live: "https://expense-tracker-55dj.vercel.app//",
-      featured: false,
-    },
+  {
+    title: "Expense Tracker",
+    description: "Manage your income and expense in expense tracker with graphs! ",
+    tags: ["React.js", "Tailwind CSS", "JavaScript", "Recharts"],
+    image: expenzo,
+    github: "https://github.com/sujalshah593/ExpenseTracker",
+    live: "https://expense-tracker-55dj.vercel.app//",
+    featured: false,
+  },
 ];
 
 export default function ProjectsSection() {
