@@ -166,7 +166,7 @@ const handleSubmit = async (e) => {
                   <FiGithub className="w-5 h-5 fill-white transition-colors duration-300" />
                 </a>
                 <a
-                  href="https://linkedin.com/in/yourus"
+                  href="https://www.linkedin.com/in/sujal-shah-399334306/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full bg-blue-500 flex items-center hover:scale-110 justify-center hover:bg-gradient-to-r hover:from-cyan-500/20  hover:border-cyan-500/50 transition-all duration-300"
