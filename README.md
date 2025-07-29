@@ -13,7 +13,12 @@ Welcome to my **Personal Portfolio Website**, built using **React.js**, **Tailwi
 ## 📱 Responsive Design
 
 - Fully responsive across **mobile**, **tablet**, and **desktop** devices  
-- Mobile-first approach with optimized layout and accessibility  
+- Mobile-first approach with optimized layout and accessibility
+
+## Website Previews
+
+<img width="1919" height="903" alt="image" src="https://github.com/user-attachments/assets/1f9fb205-0715-45ec-a127-1413d6762b26" />
+
 
 ## 📂 Features
 
