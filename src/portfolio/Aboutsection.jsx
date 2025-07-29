@@ -63,7 +63,7 @@ export default function AboutSection() {
               <div className="h-1 w-24 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-full"></div>
             </div>
 
-            <div className="space-y-6 extra  text-justify text-gray-300 text-lg leading-relaxed">
+            <div className="space-y-6 extra  text-justify text-gray-300 text-xl leading-relaxed">
               <p>
                 I'm a passionate{" "}
                 <span className="text-cyan-400 font-semibold">

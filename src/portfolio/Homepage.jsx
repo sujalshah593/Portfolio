@@ -3,7 +3,7 @@ import { useLocation } from "react-router-dom";
 import ClickSpark from "../reactbits/clickhere";
 import HeroSection from "./herosection";
 import AboutSection from "./Aboutsection";
-import ReviewsSection from "./ReviewSection";
+
 import ProjectsSection from "./projectsection";
 import SkillsSection from "./skillssection";
 import CertificationsSection from "./Certifications";
@@ -38,7 +38,6 @@ export default function HomePage() {
         <AboutSection />
         <ProjectsSection />
         <SkillsSection />
-        <ReviewsSection />
         <CertificationsSection />
         <ContactSection />
       </ClickSpark>

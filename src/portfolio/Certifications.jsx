@@ -27,7 +27,7 @@ export default function CertificationsSection() {
   const isInView = useInView(ref, { once: false, amount: 0.2 });
 
   return (
-    <section id="certificate" ref={ref} className="relative py-24 px-4 sm:px-6 overflow-hidden">
+    <section id="certificate" ref={ref} className="relative py-15 px-4 sm:px-6 overflow-hidden">
       <div className="absolute inset-0 z-0">
         <div className="absolute top-40 right-[10%] w-72 h-72 bg-gradient-to-r from-purple-700/10 to-pink-700/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-40 left-[10%] w-72 h-72 bg-gradient-to-r from-cyan-700/10 to-blue-700/10 rounded-full blur-3xl"></div>

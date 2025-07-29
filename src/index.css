@@ -17,8 +17,8 @@
 
 
 .extra{
-    font-family: 'Winky Rough', serif;
-    font-size:large;
+    font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
 }
 
 /* Custom scrollbar */

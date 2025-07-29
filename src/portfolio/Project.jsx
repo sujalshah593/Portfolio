@@ -3,14 +3,14 @@ import { motion, useInView } from "framer-motion";
 import { GoArrowUpRight } from "react-icons/go";
 import { LuGithub } from "react-icons/lu";
 import { FiExternalLink } from "react-icons/fi";
-import codezy from "../assets/codezy.png";
-import todo from "../assets/todo.png";
 import { SmallCorner } from "./design";
 import { SmallStar } from "./design";
-import portfolio from "../assets/portfolio.png";
-import chat from "../assets/chat.png";
 import { Link } from "react-router-dom";
-
+import Codezy1 from '../assets/Codezy1.png'
+import codezyai from '../assets/codezyai.png'
+import portfolio1 from '../assets/portfolio1.png'
+import expenzo from '../assets/expenzo.png' 
+import todo from '../assets/todo.png';
 
 const projects = [
   {
@@ -18,7 +18,7 @@ const projects = [
     description:
       "A tech video platform inspired by YouTube — designed for exploring and watching coding tutorials and tech content.",
     tags: ["JavaScript", "Tailwind CSS", "React.js"],
-    image: codezy,
+    image: Codezy1,
     github: "https://github.com/sujalshah593/Codezy",
     live: "https://effervescent-crepe-836929.netlify.app/",
     featured: true,
@@ -28,7 +28,7 @@ const projects = [
     description:
       "A real-time chat application powered by AI, allowing users to interact with an AI assistant for various queries and tasks.",
     tags: ["React.js", "Firebase", "Tailwind CSS"],
-    image: chat,
+    image: codezyai,
     github: "https://github.com/yourusername/taskmanager",
     live: "https://taskmanager-demo.com",
     featured: true,
@@ -38,18 +38,27 @@ const projects = [
     description:
       "A modern portfolio website showcasing projects and skills with smooth animations and responsive design.",
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
-    image: portfolio,
+    image: portfolio1,
     github: "https://github.com/yourusername/portfolio",
     live: "https://portfolio-demo.com",
-    featured: false,
+    featured: true,
   },
-  {
+    {
     title: "i-Task",
     description: "A functional To-Do List App! ",
     tags: ["React.js", "Tailwind CSS", "JavaScript"],
     image: todo,
     github: "https://lnkd.in/dxcTKvbh",
     live: "https://glistening-llama-b3d17c.netlify.app/",
+    featured: false,
+  },
+  {
+    title: "Expense Tracker",
+    description: "A functional To-Do List App! ",
+    tags: ["React.js", "Tailwind CSS", "JavaScript", "Recharts"],
+    image: expenzo,
+    github: "https://github.com/sujalshah593/ExpenseTracker",
+    live: "https://expense-tracker-55dj.vercel.app//",
     featured: false,
   },
 ];

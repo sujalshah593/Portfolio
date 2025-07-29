@@ -3,13 +3,13 @@ import { motion, useInView } from "framer-motion";
 import { GoArrowUpRight } from "react-icons/go";
 import { LuGithub } from "react-icons/lu";
 import { FiExternalLink } from "react-icons/fi";
-import codezy from "../assets/codezy.png";
-import todo from "../assets/todo.png";
 import { SmallCorner } from "./design";
 import { SmallStar } from "./design";
-import portfolio from "../assets/portfolio.png";
 import { Link } from "react-router-dom";
-import bot from '../assets/bot.png';
+import Codezy1 from '../assets/Codezy1.png'
+import codezyai from '../assets/codezyai.png'
+import portfolio1 from '../assets/portfolio1.png'
+import expenzo from '../assets/expenzo.png' 
 
 const projects = [
   {
@@ -17,7 +17,7 @@ const projects = [
     description:
       "A tech video platform inspired by YouTube — designed for exploring and watching coding tutorials and tech content.",
     tags: ["JavaScript", "Tailwind CSS", "React.js"],
-    image: codezy,
+    image: Codezy1,
     github: "https://github.com/sujalshah593/Codezy",
     live: "https://effervescent-crepe-836929.netlify.app/",
     featured: true,
@@ -27,7 +27,7 @@ const projects = [
     description:
       "A real-time chat application powered by AI, allowing users to interact with an AI assistant for various queries and tasks.",
     tags: ["Next.js", "Firebase", "Tailwind CSS", "Assistant UI"],
-    image: bot,
+    image: codezyai,
     github: "https://github.com/sujalshah593/Codezy-AI",
     live: "https://codezy-ai-6wui.vercel.app/",
     featured: true,
@@ -37,20 +37,20 @@ const projects = [
     description:
       "A modern portfolio website showcasing projects and skills with smooth animations and responsive design.",
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
-    image: portfolio,
+    image: portfolio1,
     github: "https://github.com/yourusername/portfolio",
     live: "https://portfolio-demo.com",
     featured: false,
   },
-  {
-    title: "i-Task",
-    description: "A functional To-Do List App! ",
-    tags: ["React.js", "Tailwind CSS", "JavaScript"],
-    image: todo,
-    github: "https://lnkd.in/dxcTKvbh",
-    live: "https://glistening-llama-b3d17c.netlify.app/",
-    featured: false,
-  },
+    {
+      title: "Expense Tracker",
+      description: "Manage your income and expense in expense tracker with graphs! ",
+      tags: ["React.js", "Tailwind CSS", "JavaScript", "Recharts"],
+      image: expenzo,
+      github: "https://github.com/sujalshah593/ExpenseTracker",
+      live: "https://expense-tracker-55dj.vercel.app//",
+      featured: false,
+    },
 ];
 
 export default function ProjectsSection() {
@@ -132,12 +132,12 @@ export default function ProjectsSection() {
 
               <div className="p-6 relative">
                 {project.featured && (
-                  <div className="absolute top-6 right-6 px-3 py-1 bg-blue-500 text-white text-xs font-medium rounded-full">
+                  <div className="absolute top-6 right-6 px-3 py-1 bg-blue-500 text-white extra font-medium rounded-full">
                     Featured
                   </div>
                 )}
 
-                <h3 className="text-2xl header font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors duration-300">
+                <h3 className="text-lg header font-bold mb-2 text-white group-hover:text-cyan-300 transition-colors duration-300">
                   {project.title}
                 </h3>
                 <p className="text-gray-300 extra mb-4">
