@@ -5,7 +5,7 @@ import { IoDownloadOutline } from "react-icons/io5";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 import { Link, useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import sujalres from '../assets/certificates/sujalres.pdf'
+import mainresume from '../assets/certificates/mainresume.pdf'
 
 const navItems = [
   { label: "Home", id: "home" },
@@ -179,7 +179,7 @@ export default function Navbar() {
               ))}
             </div>
             <a
-              href={sujalres}
+              href={mainresume}
               download
               className="relative group px-6 py-2.5 bg-gradient-to-r from-cyan-600 via-blue-600 to-purple-600 text-white font-semibold rounded-full overflow-hidden transition-all duration-300 hover:shadow-lg hover:scale-105"
             >

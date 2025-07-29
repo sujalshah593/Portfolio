@@ -40,7 +40,7 @@ const projects = [
     tags: ["Next.js", "Framer Motion", "Tailwind CSS"],
     image: portfolio1,
     github: "https://github.com/sujalshah593/Portfolio",
-    live: "https://portfolio-demo.com",
+    live: "https://portfolio-sy3s.vercel.app/",
     featured: true,
   },
     {
