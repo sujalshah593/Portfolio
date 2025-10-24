@@ -60,10 +60,11 @@ Some images used in the project are private and excluded from the GitHub reposit
 
 - **Your Name**  
 - 📧 sujalshah593@gmail.com 
-- 🌐 [Portfolio](https://guileless-duckanoo-7c3d52.netlify.app/)  
+- 🌐 [Portfolio](https://portfolio-pn6j.vercel.app/)  
 - 🐙 [GitHub](https://github.com/sujalshah593)  
 - 💼 [LinkedIn]([https://linkedin.com/in/yourusername](https://www.linkedin.com/in/sujal-shah-399334306/))  
 
 ## ⭐️ Show your Support
 
 If you like this project, feel free to ⭐️ the repo and connect with me!
+
