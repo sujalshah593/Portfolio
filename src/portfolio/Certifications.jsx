@@ -11,6 +11,7 @@ import {
   SmallStar,
 } from "./design";
 import certi1 from '../assets/certificates/certi1.pdf'
+import certi2 from '../assets/certificates/Certificate.pdf'
 
 const certifications = [
   {
@@ -20,6 +21,13 @@ const certifications = [
     image: "C++ DSA Certificate",
     link: certi1,
   },
+  {
+    title: "Frontend Development Intership",
+    issuer: "Unified Mentor",
+    date: "15th October 2025",
+    image: "Frontend Development Intership Certificate",
+    link: certi2,
+  }
 ];
 
 export default function CertificationsSection() {
